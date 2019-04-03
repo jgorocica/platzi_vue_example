@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://jgorocica.github.io/platzi_vue_example/dist/logo.png')
     h1 {{ msg }}
     select(v-model="selectedCountry")
       option(v-for="(country, index) in countries" :key="index" :value="country.value") {{country.name}}
